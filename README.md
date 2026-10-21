@@ -144,20 +144,6 @@ WHERE seat_number = 'A2';
 
 See [`docs/test-cases.md`](docs/test-cases.md) for the test cases and expected results.
 
-## Suggested GitHub repository name
 
-`seat-booking-qa`
-
-## LinkedIn sharing suggestion
-
-> 🚀 I’m building a Seat Booking QA project to practise API testing and database validation.
->
-> Using Postman, Node.js, Express, and MariaDB, I’ve tested seat availability, invalid seat IDs, duplicate booking prevention, and concurrent booking requests. I also implemented database verification and compared a deliberately buggy booking flow with a fixed atomic update.
->
-> This project is helping me strengthen my practical skills in API testing, SQL validation, and defect analysis.
->
-> #QualityAssurance #SoftwareTesting #APITesting #Postman #SQL #QAEngineer #LearningByDoing
-
-## Important
 
 This repository is a learning portfolio project, not a production booking system. It has no authentication or authorization. Do not deploy it publicly as-is. The `BUGGY` mode intentionally contains a race condition and should only be used for controlled local testing.
