@@ -1,0 +1,15 @@
+{
+  "name": "seat-booking-qa",
+  "version": "1.0.0",
+  "description": "QA learning project for API, database, and concurrent booking testing",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node tests/concurrent-booking.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "mysql2": "^3.14.0"
+  }
+}
